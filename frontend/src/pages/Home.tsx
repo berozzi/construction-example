@@ -43,7 +43,7 @@ export default function Home() {
         <div className="grid gap-4 sm:gap-6 sm:grid-cols-3">
           {[
             { label: "Lat doświadczenia", value: "30+" },
-            { label: "Zrealizowanych projektów", value: "2000+" },
+            { label: "Zrealizowanych projektów", value: "500+" },
             { label: "Brygad wykonawczych", value: "5" },
           ].map((stat) => (
             <div
