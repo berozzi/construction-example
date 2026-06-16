@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <footer className="bg-construction-dark text-white">
-      <div className="mx-auto max-w-7xl px-6 py-16">
+      <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 sm:py-16">
         <div className="grid gap-10 md:grid-cols-3">
           <div>
             <div className="mb-4">
@@ -44,7 +44,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="border-t border-white/10 py-6">
-        <div className="mx-auto max-w-7xl px-6 text-center text-construction-muted text-xs">
+        <div className="mx-auto max-w-7xl px-4 text-center text-construction-muted text-xs sm:px-6">
           &copy; {new Date().getFullYear()} TOL-BUD Antoni Magiera. Wszelkie
           prawa zastrzeżone.
         </div>

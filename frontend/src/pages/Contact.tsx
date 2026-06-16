@@ -1,23 +1,23 @@
 export default function Contact() {
   return (
     <>
-      <section className="relative flex items-center justify-center pt-32 pb-20">
+      <section className="relative flex items-center justify-center pt-24 pb-16 sm:pt-32 sm:pb-20">
         <div className="absolute inset-0 bg-gradient-to-br from-construction-dark via-construction-gray to-construction-dark" />
         <div className="relative z-10 text-center">
           <span className="mb-2 block font-semibold text-construction-accent text-sm uppercase tracking-widest">
             Skontaktuj się
           </span>
-          <h1 className="text-4xl font-extrabold text-white md:text-5xl">
+              <h1 className="text-3xl font-extrabold text-white sm:text-4xl md:text-5xl">
             Kontakt
           </h1>
         </div>
       </section>
 
-      <section className="py-20">
-        <div className="mx-auto max-w-6xl px-6">
+      <section className="py-16 sm:py-20">
+        <div className="mx-auto max-w-6xl px-4 sm:px-6">
           <div className="grid gap-12 lg:grid-cols-2">
             <div>
-              <h2 className="mb-8 text-2xl font-bold text-construction-dark">
+              <h2 className="mb-6 text-xl font-bold text-construction-dark sm:mb-8 sm:text-2xl">
                 Napisz do nas
               </h2>
               <form className="space-y-5">
@@ -73,7 +73,7 @@ export default function Contact() {
             </div>
 
             <div>
-              <h2 className="mb-8 text-2xl font-bold text-construction-dark">
+              <h2 className="mb-6 text-xl font-bold text-construction-dark sm:mb-8 sm:text-2xl">
                 Dane kontaktowe
               </h2>
               <div className="mb-8 space-y-4">

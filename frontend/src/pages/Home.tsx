@@ -8,16 +8,16 @@ export default function Home() {
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_rgba(245,158,11,0.15),transparent_50%)]" />
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_left,_rgba(245,158,11,0.08),transparent_50%)]" />
 
-        <div className="relative z-10 mx-auto max-w-5xl px-6 text-center">
+        <div className="relative z-10 mx-auto max-w-5xl px-4 text-center sm:px-6">
           <div className="mb-6 inline-block rounded-full border border-construction-accent/30 bg-construction-accent/10 px-5 py-1.5 text-construction-accent text-xs font-semibold tracking-widest uppercase">
             Ponad 30 lat doświadczenia
           </div>
-          <h1 className="mb-6 text-5xl font-extrabold leading-tight text-white md:text-7xl">
+          <h1 className="mb-6 text-4xl font-extrabold leading-tight text-white sm:text-5xl md:text-7xl">
             Profesjonalne
             <br />
             <span className="text-construction-accent">Posadzki Betonowe</span>
           </h1>
-          <p className="mx-auto mb-10 max-w-2xl text-lg leading-relaxed text-construction-muted">
+          <p className="mx-auto mb-10 max-w-2xl text-base leading-relaxed text-construction-muted sm:text-lg">
             Kompleksowe usługi posadzkarskie dla klientów indywidualnych i firm.
           </p>
           <div className="flex flex-wrap items-center justify-center gap-4">
@@ -39,8 +39,8 @@ export default function Home() {
         <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-construction-light to-transparent" />
       </section>
 
-      <section className="relative -mt-20 mx-auto max-w-6xl px-6">
-        <div className="grid gap-6 md:grid-cols-3">
+      <section className="relative -mt-16 mx-auto max-w-6xl px-4 sm:-mt-20 sm:px-6">
+        <div className="grid gap-4 sm:gap-6 sm:grid-cols-3">
           {[
             { label: "Lat doświadczenia", value: "30+" },
             { label: "Zrealizowanych projektów", value: "2000+" },
@@ -61,8 +61,8 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-24">
-        <div className="mx-auto max-w-6xl px-6">
+      <section className="py-16 sm:py-24">
+        <div className="mx-auto max-w-6xl px-4 sm:px-6">
           <div className="mb-16 text-center">
             <span className="mb-2 block font-semibold text-construction-accent text-sm uppercase tracking-widest">
               O firmie
@@ -98,8 +98,8 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-construction-dark py-24">
-        <div className="mx-auto max-w-6xl px-6">
+      <section className="bg-construction-dark py-16 sm:py-24">
+        <div className="mx-auto max-w-6xl px-4 sm:px-6">
           <div className="mb-16 text-center">
             <span className="mb-2 block font-semibold text-construction-accent text-sm uppercase tracking-widest">
               Nasze usługi
@@ -139,7 +139,7 @@ export default function Home() {
                 key={s.title}
                 className="group rounded-2xl border border-white/10 bg-white/5 p-8 transition-all hover:border-construction-accent/30 hover:bg-white/10"
               >
-                <div className="mb-4 flex size-12 items-center justify-center rounded-xl bg-construction-accent/10 text-construction-accent">
+                <div className="mb-4 flex size-10 shrink-0 items-center justify-center rounded-xl bg-construction-accent/10 text-construction-accent sm:size-12">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="size-6"
@@ -174,8 +174,8 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="relative py-24">
-        <div className="mx-auto max-w-6xl px-6 text-center">
+      <section className="relative py-16 sm:py-24">
+        <div className="mx-auto max-w-6xl px-4 sm:px-6 text-center">
           <span className="mb-2 block font-semibold text-construction-accent text-sm uppercase tracking-widest">
             Kontakt
           </span>

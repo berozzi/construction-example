@@ -1,22 +1,22 @@
 export default function About() {
   return (
     <>
-      <section className="relative flex items-center justify-center pt-32 pb-20">
+      <section className="relative flex items-center justify-center pt-24 pb-16 sm:pt-32 sm:pb-20">
         <div className="absolute inset-0 bg-gradient-to-br from-construction-dark via-construction-gray to-construction-dark" />
         <div className="relative z-10 text-center">
           <span className="mb-2 block font-semibold text-construction-accent text-sm uppercase tracking-widest">
             Poznaj nas
           </span>
-          <h1 className="text-4xl font-extrabold text-white md:text-5xl">
+          <h1 className="text-3xl font-extrabold text-white sm:text-4xl md:text-5xl">
             O nas
           </h1>
         </div>
       </section>
 
-      <section className="py-20">
-        <div className="mx-auto max-w-5xl px-6">
-          <div className="grid gap-12 md:grid-cols-2">
-            <div className="flex items-center justify-center rounded-2xl bg-gradient-to-br from-construction-gray to-construction-dark p-12">
+      <section className="py-16 sm:py-20">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
+          <div className="grid gap-8 md:grid-cols-2 md:gap-12">
+            <div className="flex items-center justify-center rounded-2xl bg-gradient-to-br from-construction-gray to-construction-dark p-8 sm:p-12">
               <div className="text-center text-white">
                 <div className="mb-4 text-6xl font-extrabold text-construction-accent">
                   1994
@@ -27,13 +27,13 @@ export default function About() {
               </div>
             </div>
             <div className="space-y-5">
-              <p className="text-lg leading-relaxed text-construction-gray/80">
+              <p className="text-base leading-relaxed text-construction-gray/80 sm:text-lg">
                 Nasza firma rozpoczęła swą działalność w 1994 r. Początki były
                 bardzo skromne. Jednak z upływem kolejnych lat przybywało nam
                 doświadczenia, a to przełożyło się na jakość wykonywanych przez
                 nas usług.
               </p>
-              <p className="text-lg leading-relaxed text-construction-gray/80">
+              <p className="text-base leading-relaxed text-construction-gray/80 sm:text-lg">
                 W tym czasie zyskaliśmy zaufanie coraz większej rzeszy klientów,
                 a to pozwoliło nam na dalszy rozwój firmy: zaangażowanie środków
                 finansowych i zatrudnienie wykwalifikowanej kadry.
@@ -43,24 +43,24 @@ export default function About() {
         </div>
       </section>
 
-      <section className="bg-white py-20">
-        <div className="mx-auto max-w-5xl px-6">
-          <div className="grid gap-12 md:grid-cols-2">
+      <section className="bg-white py-16 sm:py-20">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
+          <div className="grid gap-8 md:grid-cols-2 md:gap-12">
             <div className="order-2 space-y-5 md:order-1">
-              <p className="text-lg leading-relaxed text-construction-gray/80">
+              <p className="text-base leading-relaxed text-construction-gray/80 sm:text-lg">
                 W ciągu wielu lat, spośród wielu osób zatrudnionych w naszym
                 zespole, udało nam się dobrać i wyszkolić doskonałą kadrę
                 pracowników, posiadających umiejętności i wiedzę pozwalające na
                 wykonywanie usług na najwyższym poziome.
               </p>
-              <p className="text-lg leading-relaxed text-construction-gray/80">
+              <p className="text-base leading-relaxed text-construction-gray/80 sm:text-lg">
                 Aktualnie posiadamy pięć brygad wykonawczych oraz zespół
                 zaopatrzeniowo-logistyczny, które są w stanie zorganizować i
                 wykonać około 600m² jastrychów cementowych w ciągu jednej
                 zmiany.
               </p>
             </div>
-            <div className="order-1 flex items-center justify-center rounded-2xl bg-construction-dark p-12 md:order-2">
+            <div className="order-1 flex items-center justify-center rounded-2xl bg-construction-dark p-8 sm:p-12 md:order-2">
               <div className="text-center text-white">
                 <div className="mb-4 text-5xl font-extrabold text-construction-accent">
                   600 m²
@@ -74,10 +74,10 @@ export default function About() {
         </div>
       </section>
 
-      <section className="py-20">
-        <div className="mx-auto max-w-5xl px-6">
-          <div className="grid gap-12 md:grid-cols-2">
-            <div className="flex items-center justify-center rounded-2xl bg-gradient-to-br from-construction-gray to-construction-dark p-12">
+      <section className="py-16 sm:py-20">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
+          <div className="grid gap-8 md:grid-cols-2 md:gap-12">
+            <div className="flex items-center justify-center rounded-2xl bg-gradient-to-br from-construction-gray to-construction-dark p-8 sm:p-12">
               <div className="text-center text-white">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -105,13 +105,13 @@ export default function About() {
               </div>
             </div>
             <div className="space-y-5">
-              <p className="text-lg leading-relaxed text-construction-gray/80">
+              <p className="text-base leading-relaxed text-construction-gray/80 sm:text-lg">
                 W trosce o środowisko naturalne oraz konieczności obniżania
                 kosztów produkcji, nasze brygady pracują na najnowszych,
                 dostępnych na rynku, agregatach niemieckiej firmy BRINKMAN oraz
                 nowoczesnym taborze pojazdów dostawczych i ciężarowych.
               </p>
-              <p className="text-lg leading-relaxed text-construction-gray/80">
+              <p className="text-base leading-relaxed text-construction-gray/80 sm:text-lg">
                 Zakres świadczonych przez nas usług pozwala na kompleksową
                 obsługę naszych klientów oraz ich minimalne zaangażowanie w
                 proces produkcji. Wykwalifikowana kadra oraz bezawaryjny i

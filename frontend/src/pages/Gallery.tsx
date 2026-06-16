@@ -19,20 +19,20 @@ const images = [
 export default function Gallery() {
   return (
     <>
-      <section className="relative flex items-center justify-center pt-32 pb-20">
+      <section className="relative flex items-center justify-center pt-24 pb-16 sm:pt-32 sm:pb-20">
         <div className="absolute inset-0 bg-gradient-to-br from-construction-dark via-construction-gray to-construction-dark" />
         <div className="relative z-10 text-center">
           <span className="mb-2 block font-semibold text-construction-accent text-sm uppercase tracking-widest">
             Nasze realizacje
           </span>
-          <h1 className="text-4xl font-extrabold text-white md:text-5xl">
+          <h1 className="text-3xl font-extrabold text-white sm:text-4xl md:text-5xl">
             Galeria
           </h1>
         </div>
       </section>
 
-      <section className="py-20">
-        <div className="mx-auto max-w-6xl px-6">
+      <section className="py-16 sm:py-20">
+        <div className="mx-auto max-w-6xl px-4 sm:px-6">
           <div className="columns-1 gap-6 sm:columns-2 lg:columns-3">
             {images.map((img) => (
               <div
@@ -41,7 +41,7 @@ export default function Gallery() {
               >
                 <div
                   className={
-                    "flex h-56 items-center justify-center bg-gradient-to-br " +
+                    "flex h-40 items-center justify-center bg-gradient-to-br sm:h-56 " +
                     img.gradient
                   }
                 >
@@ -60,7 +60,7 @@ export default function Gallery() {
                     />
                   </svg>
                 </div>
-                <div className="border-t border-construction-gray/10 bg-white p-4">
+                <div className="border-t border-construction-gray/10 bg-white p-3 sm:p-4">
                   <p className="font-medium text-construction-gray text-sm">
                     {img.title}
                   </p>

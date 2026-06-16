@@ -38,22 +38,22 @@ const serviceGroups = [
 export default function Offer() {
   return (
     <>
-      <section className="relative flex items-center justify-center pt-32 pb-20">
+      <section className="relative flex items-center justify-center pt-24 pb-16 sm:pt-32 sm:pb-20">
         <div className="absolute inset-0 bg-gradient-to-br from-construction-dark via-construction-gray to-construction-dark" />
         <div className="relative z-10 text-center">
           <span className="mb-2 block font-semibold text-construction-accent text-sm uppercase tracking-widest">
             Co robimy
           </span>
-          <h1 className="text-4xl font-extrabold text-white md:text-5xl">
+          <h1 className="text-3xl font-extrabold text-white sm:text-4xl md:text-5xl">
             Nasza oferta
           </h1>
         </div>
       </section>
 
-      <section className="py-20">
-        <div className="mx-auto max-w-5xl px-6">
-          <div className="mx-auto mb-16 max-w-3xl text-center">
-            <p className="text-lg leading-relaxed text-construction-gray/80">
+      <section className="py-16 sm:py-20">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
+          <div className="mx-auto mb-12 max-w-3xl text-center sm:mb-16">
+            <p className="text-sm leading-relaxed text-construction-gray/80 sm:text-base">
               Świadczymy szeroki zakres prac betoniarskich dla klientów
               indywidualnych oraz firm. Służymy naszym klientom fachowym
               doradztwem w zakresie zastosowania i doboru materiałów zależnie od
@@ -76,7 +76,7 @@ export default function Offer() {
                   {group.items.map((item) => (
                     <div
                       key={item}
-                      className="group flex items-start gap-4 rounded-xl border border-construction-gray/10 bg-white p-5 transition-all hover:border-construction-accent/30 hover:shadow-lg hover:shadow-construction-accent/5"
+                      className="group flex items-start gap-3 rounded-xl border border-construction-gray/10 bg-white p-4 transition-all hover:border-construction-accent/30 hover:shadow-lg hover:shadow-construction-accent/5 sm:gap-4 sm:p-5"
                     >
                       <div className="mt-1 shrink-0 rounded-lg bg-construction-accent/10 p-1.5 text-construction-accent transition-colors group-hover:bg-construction-accent group-hover:text-white">
                         <svg
@@ -92,7 +92,7 @@ export default function Offer() {
                           />
                         </svg>
                       </div>
-                      <span className="text-construction-gray/80">
+                      <span className="text-sm text-construction-gray/80 sm:text-base">
                         {item}
                       </span>
                     </div>
@@ -104,8 +104,8 @@ export default function Offer() {
         </div>
       </section>
 
-      <section className="bg-construction-dark py-20">
-        <div className="mx-auto max-w-3xl px-6 text-center">
+      <section className="bg-construction-dark py-16 sm:py-20">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6 text-center">
           <h2 className="mb-4 text-3xl font-bold text-white">
             Zapraszamy do współpracy
           </h2>
